@@ -1,6 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Favicon taken from favicon.io
+Fonts from google fonts
 
 Welcome Joe Donnelly,
 
