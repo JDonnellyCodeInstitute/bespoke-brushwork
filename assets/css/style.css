@@ -21,16 +21,6 @@ body {
     font-style: normal;
 }
 
-/*for main heading*/
-#title {
-    font-family: "Playwrite NO", cursive;
-    font-optical-sizing: auto;
-    font-weight: 250;
-    font-style: normal;
-    /*to keep to one line at top of mobile screen*/
-    font-size: 150%;
-  }
-
 /* Header */
 header {
   display: flex;
@@ -51,7 +41,16 @@ header a {
   color: inherit;
 }
 
-#nav {
+#title {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  /*to keep to one line at top of mobile screen*/
+  font-size: 150%;
+}
+
+#page-select {
   letter-spacing: 3px;
   list-style-type: none;
 }
@@ -61,7 +60,7 @@ header a {
 }
 
 .live {
-  border-bottom: 1.5px solid grey;
+  border-bottom: 1.5px solid white;
 }
 
 /* Navbar style with toggle */
@@ -93,6 +92,7 @@ nav {
 main {
     /*flex property here is to push the footer to the bottom of the screen*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
