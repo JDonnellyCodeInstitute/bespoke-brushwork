@@ -99,3 +99,26 @@ main {
 footer {
 
 }
+
+/* Media query 768px+ (for tablets) */
+@media screen and (min-width: 768px) {
+  nav {
+    position: relative;
+    display: block;
+    width: fit-content;
+    box-shadow: none;
+    padding-right: 2rem;
+  }
+
+  #page-select {
+    display: flex;
+  }
+
+  #page-select > li {
+    padding-left: 2rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+}
