@@ -3,22 +3,22 @@
 
 /* wildcard selector used to override default browser styles*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /*general*/
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    /* generic styles */
-    color: black;
-    /*for standard text*/
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* generic styles */
+  color: black;
+  /*for standard text*/
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Header */
@@ -31,7 +31,7 @@ header {
   box-shadow: 0 3px 3px #858484;
   width: 100%;
   background-color: rgb(248, 7, 228);
-  color: white;
+  color: #f1f2f3;
   z-index: 10;
   padding: 0 1rem;
 }
@@ -55,12 +55,12 @@ header a {
   list-style-type: none;
 }
 
-#nav > li {
+#nav>li {
   margin-bottom: 1em;
 }
 
 .live {
-  border-bottom: 1.5px solid white;
+  border-bottom: 1.5px solid #f1f2f3;
 }
 
 /* Navbar style with toggle */
@@ -90,19 +90,35 @@ nav {
 
 /* Main */
 main {
-    /*flex property here is to push the footer to the bottom of the screen*/
-    flex: 1 0 auto;
-    /* top margin ensures main is visible under header */
-    margin-top: 47px;
+  /*flex property here is to push the footer to the bottom of the screen*/
+  flex: 1 0 auto;
+  /* top margin ensures main is visible under header */
+  margin-top: 47px;
 }
 
 /* Footer */
 footer {
+  box-shadow: 0 -3px 3px #858484;
+  width: 100%;
+  background-color: rgb(248, 7, 228);
+}
 
+#socials {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#socials i {
+  color: #f1f2f3;
+  font-size: 200%;
 }
 
 /* Media query 768px+ (for tablets) */
 @media screen and (min-width: 768px) {
+
   /* Header */
   nav {
     position: relative;
@@ -117,7 +133,7 @@ footer {
     display: flex;
   }
 
-  #page-select > li {
+  #page-select>li {
     padding-left: 2rem;
   }
 
@@ -141,7 +157,7 @@ footer {
 /* Media query 992px+ (for laptops) */
 @media screen and (min-width: 992px) {
   a:hover {
-    background-color: white;
+    background-color: #f1f2f3;
     color: black;
     border-bottom: 1.5px solid #858484;
   }
