@@ -2,6 +2,8 @@
 
 Favicon taken from favicon.io
 Fonts from google fonts
+Microsoft ClipChamp used to make the picture slideshow
+Pictures are all my partner's work
 
 Welcome Joe Donnelly,
 
