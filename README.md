@@ -4,6 +4,7 @@ Favicon taken from favicon.io
 Fonts from google fonts
 Microsoft ClipChamp used to make the picture slideshow
 Pictures are all my partner's work
+Hero welcome image taken from zazzle https://www.zazzle.co.uk/pd/spp/pt-zazzle_print?dz=a5a86322-8e32-4d17-9ac1-037f36e6e4c8&clone=true&pending=true&size=%5B30.0000%2C24.0000%5D&mounting=none&media=value_posterpaper_matte&moulding=none&mat1=none&matwidths=%5B0.0000%2C0.0000%2C0.0000%2C0.0000%5D&glazing=none&design.areas=%5Bdynamic%5D&ratio=1.25&social=true&view=113381087925757000
 
 Welcome Joe Donnelly,
 
