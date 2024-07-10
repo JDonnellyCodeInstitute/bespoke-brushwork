@@ -175,8 +175,8 @@ footer {
     display: block;
     width: fit-content;
     box-shadow: none;
-    padding-right: 2rem;
-    font-size: 110%;
+    padding-right: 1rem;
+    font-size: 100%;
   }
 
   #page-select {
