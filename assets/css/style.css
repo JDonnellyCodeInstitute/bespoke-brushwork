@@ -97,6 +97,10 @@ main {
 }
 
 /* Hero image slideshow*/
+#hero-container {
+  position: relative;
+}
+
 #slider {
   overflow: hidden;
 }
@@ -144,6 +148,20 @@ main {
   100% {
     left: -400%;
   }
+}
+
+/*Hero Image Text Overlay*/
+#cover-text {
+  background-color: rgba(248, 7, 228, 0.5);
+  color: #f1f2f3;
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+  z-index: 20;
+}
+
+#cover-text > h2 {
+  font-weight: 300;
 }
 
 /* Footer */
@@ -201,6 +219,10 @@ footer {
   main {
     /*push down main content to account for larger header*/
     margin-top: 70px;
+  }
+
+  #cover-text {
+    font-size: 250%;
   }
 }
 
