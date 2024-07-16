@@ -157,7 +157,7 @@ main {
   position: absolute;
   left: 20%;
   bottom: 10%;
-  z-index: 20;
+  z-index: 9;
 }
 
 #cover-text > h2 {
@@ -288,12 +288,13 @@ footer {
   /*about us section on laptop*/
   #about-us > h3 {
     font-size: 500%;
+    margin-top: 1rem;
   }
 
   .align-left, .align-right {
-    max-width: 50%;
+    max-width: 60%;
     max-height: 500px;
-    font-size: 175%;
+    font-size: 150%;
     text-align: center;
   }
 
