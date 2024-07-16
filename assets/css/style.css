@@ -168,11 +168,16 @@ main {
 .align-left, .align-right {
   color: #f1f2f3;
   background-color: rgba(248, 7, 228, 0.5);
+  /*height: 100vw;
+  width: 100vw;*/
   border-radius: 25%;
   border: 5px solid #858484;
   text-align: center;
+  margin: 5px;
   max-width: 600px;
   max-height: 375px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .align-left > p {
@@ -184,6 +189,7 @@ main {
 }
 
 #about-us > h3 {
+  padding-top: 5%;
   text-decoration-line: underline;
   font-size: 300%;
   color: #858484;
@@ -248,9 +254,27 @@ footer {
     margin-top: 70px;
   }
 
+    /*cover text on hero image*/
   #cover-text {
     font-size: 250%;
   }
+
+  /* about us section */
+  #about-us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #about-us > .align-left, #about-us > .align-right {
+    width: 75%;
+  }
+
+  #about-us > .align-right {
+    text-align: end;
+    align-self: flex-end;
+  }
+
 }
 
 /* Media query 992px+ (for laptops) */
@@ -260,4 +284,17 @@ footer {
     color: black;
     border-bottom: 1.5px solid #858484;
   }
+
+  /*about us section on laptop*/
+  #about-us > h3 {
+    font-size: 500%;
+  }
+
+  .align-left, .align-right {
+    max-width: 50%;
+    max-height: 500px;
+    font-size: 175%;
+    text-align: center;
+  }
+
 }
