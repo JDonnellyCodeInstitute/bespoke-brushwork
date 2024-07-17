@@ -360,6 +360,11 @@ footer {
     border-bottom: 1.5px solid #858484;
   }
 
+  /*hero image cover text*/
+  #cover-text {
+    font-size: 400%;
+  }
+
   /*about us section on laptop*/
   #about-us-heading>h3 {
     font-size: 500%;
