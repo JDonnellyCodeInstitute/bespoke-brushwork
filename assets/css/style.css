@@ -165,19 +165,29 @@ main {
 }
 
 /* About us section */
+#about-us {
+  background-color: #5f5757;
+  border-top: 5px solid #858484;
+}
+
+#about-us-heading > h3 {
+  padding-top: 0.2rem;
+  font-size: 200%;
+  color: #f1f2f3;
+  text-shadow: 0 10px 10px #858484;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .align-left, .align-right {
   color: #f1f2f3;
   background-color: rgba(248, 7, 228, 0.5);
-  /*height: 100vw;
-  width: 100vw;*/
   border-radius: 25%;
   border: 5px solid #858484;
   text-align: center;
-  margin: 5px;
   max-width: 600px;
   max-height: 375px;
-  display: flex;
-  flex-wrap: wrap;
+  box-shadow: 0 10px 10px #858484;
 }
 
 .align-left > p {
@@ -186,15 +196,6 @@ main {
 
 .align-right > p {
   padding: 5%;
-}
-
-#about-us > h3 {
-  padding-top: 5%;
-  text-decoration-line: underline;
-  font-size: 300%;
-  color: #858484;
-  text-align: center;
-  text-transform: capitalize;
 }
 
 /* Footer */
@@ -271,7 +272,6 @@ footer {
   }
 
   #about-us > .align-right {
-    text-align: end;
     align-self: flex-end;
   }
 
@@ -286,7 +286,7 @@ footer {
   }
 
   /*about us section on laptop*/
-  #about-us > h3 {
+  #about-us-heading > h3 {
     font-size: 500%;
     margin-top: 1rem;
     padding-top: 5px;
