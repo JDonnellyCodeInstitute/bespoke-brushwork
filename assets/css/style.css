@@ -206,6 +206,19 @@ main {
 }
 
 /*product range section*/
+#art-services-heading > h2 {
+  padding-top: 0.2rem;
+  font-size: 200%;
+  color: #f1f2f3;
+  text-shadow: 0 10px 10px #858484;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#art-services-heading {
+  background-color: rgb(248, 7, 228);
+}
+
 #services {
   background: url('../images/products/cloud-gazing.jpg') no-repeat center/cover;
   display: flex;
@@ -323,6 +336,13 @@ footer {
     max-height: 500px;
     font-size: 150%;
     text-align: center;
+  }
+
+  /*art services section*/
+  #art-services-heading > h2 {
+    font-size: 500%;
+    margin-top: 1rem;
+    padding-top: 5px;
   }
 
 }
