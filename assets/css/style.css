@@ -185,7 +185,7 @@ main {
 
 .align-left, .align-right {
   color: #f1f2f3;
-  background-color: rgba(248, 7, 228, 0.5);
+  background-color: rgba(248, 7, 228, 0.6);
   border-radius: 25%;
   border: 5px solid #858484;
   text-align: center;
