@@ -255,7 +255,7 @@ main {
 
 #art-pieces {
   line-height: 0;
-  background-color: black;
+  /*background-color: black;*/
 }
 
 /* Footer */
@@ -345,12 +345,6 @@ footer {
     align-self: flex-end;
   }
 
-  /*Gallery responsivity
-  #art-pieces {
-    column-count: 3;
-    column-gap: 0;
-  }*/
-
 }
 
 /* Media query 992px+ (for laptops) */
@@ -383,10 +377,10 @@ footer {
     padding-top: 5px;
   }
 
-  /*Gallery responsivity
+  /*Gallery responsivity*/
   #art-pieces {
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
-  }*/
+  }
 
 }
