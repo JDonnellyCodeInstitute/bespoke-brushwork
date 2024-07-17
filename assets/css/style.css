@@ -124,27 +124,35 @@ main {
   0% {
     left: 0;
   }
+
   20% {
     left: 0;
   }
+
   25% {
     left: -100%;
   }
+
   45% {
     left: -100%;
   }
+
   50% {
     left: -200%;
   }
+
   70% {
     left: -200%;
   }
+
   75% {
     left: -300%;
   }
+
   95% {
     left: -300%;
   }
+
   100% {
     left: -400%;
   }
@@ -160,7 +168,7 @@ main {
   z-index: 9;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
   font-weight: 300;
 }
 
@@ -174,7 +182,7 @@ main {
   background-color: rgb(248, 7, 228);
 }
 
-#about-us-heading > h3 {
+#about-us-heading>h3 {
   padding-top: 0.2rem;
   font-size: 200%;
   color: #f1f2f3;
@@ -183,7 +191,8 @@ main {
   text-transform: uppercase;
 }
 
-.align-left, .align-right {
+.align-left,
+.align-right {
   color: #f1f2f3;
   background-color: rgba(248, 7, 228, 0.6);
   border-radius: 25%;
@@ -194,11 +203,11 @@ main {
   box-shadow: 0 5px 5px #858484;
 }
 
-.align-left > p {
+.align-left>p {
   padding: 5%;
 }
 
-.align-right > p {
+.align-right>p {
   padding: 5%;
 }
 
@@ -207,7 +216,7 @@ main {
 }
 
 /*product range section*/
-#art-services-heading > h2 {
+#art-services-heading>h2 {
   font-size: 200%;
   color: #f1f2f3;
   text-shadow: 0 10px 10px #858484;
@@ -238,6 +247,17 @@ main {
   height: 100px;
 }
 
+/*Gallery Styles*/
+#art-pieces img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#art-pieces {
+  line-height: 0;
+  background-color: black;
+}
+
 /* Footer */
 footer {
   box-shadow: 0 -3px 3px #858484;
@@ -256,6 +276,15 @@ footer {
 #socials i {
   color: #f1f2f3;
   font-size: 200%;
+}
+
+/* Media query 576px+ (for tablets) */
+@media screen and (min-width: 576px) {
+  /*Gallery responsivity*/
+  #art-pieces {
+    column-count: 2;
+    column-gap: 0;
+  }
 }
 
 /* Media query 768px+ (for tablets) */
@@ -295,7 +324,7 @@ footer {
     margin-top: 70px;
   }
 
-    /*cover text on hero image*/
+  /*cover text on hero image*/
   #cover-text {
     font-size: 250%;
   }
@@ -307,13 +336,20 @@ footer {
     width: 100%;
   }
 
-  #about-us > .align-left, #about-us > .align-right {
+  #about-us>.align-left,
+  #about-us>.align-right {
     width: 75%;
   }
 
-  #about-us > .align-right {
+  #about-us>.align-right {
     align-self: flex-end;
   }
+
+  /*Gallery responsivity
+  #art-pieces {
+    column-count: 3;
+    column-gap: 0;
+  }*/
 
 }
 
@@ -326,13 +362,14 @@ footer {
   }
 
   /*about us section on laptop*/
-  #about-us-heading > h3 {
+  #about-us-heading>h3 {
     font-size: 500%;
     margin-top: 1rem;
     padding-top: 5px;
   }
 
-  .align-left, .align-right {
+  .align-left,
+  .align-right {
     max-width: 60%;
     max-height: 500px;
     font-size: 150%;
@@ -340,10 +377,16 @@ footer {
   }
 
   /*art services section*/
-  #art-services-heading > h2 {
+  #art-services-heading>h2 {
     font-size: 500%;
     margin-top: 1rem;
     padding-top: 5px;
   }
+
+  /*Gallery responsivity
+  #art-pieces {
+    column-count: 4;
+    column-gap: 0;
+  }*/
 
 }
