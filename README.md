@@ -4,6 +4,7 @@ Favicon taken from favicon.io
 Fonts from google fonts
 Pictures are all my partner's work
 Guide for hero image slideshow taken from https://www.youtube.com/watch?v=qDww4CbxtD4
+Guide for text overlap of hero image taken from https://www.youtube.com/watch?v=Si4ViAvvnwU
 
 Welcome Joe Donnelly,
 
