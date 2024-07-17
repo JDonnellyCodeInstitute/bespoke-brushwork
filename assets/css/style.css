@@ -166,11 +166,12 @@ main {
 
 /* About us section */
 #about-us {
-  background-color: #5f5757;
+  background: url('../images/about/forest-waterfall.jpg') no-repeat center/cover;
 }
 
 #about-us-heading {
   border: 5px solid #f1f2f3;
+  background-color: rgb(248, 7, 228);
 }
 
 #about-us-heading > h3 {
@@ -190,7 +191,7 @@ main {
   text-align: center;
   max-width: 600px;
   max-height: 375px;
-  box-shadow: 0 10px 10px #858484;
+  box-shadow: 0 5px 5px #858484;
 }
 
 .align-left > p {
@@ -207,7 +208,6 @@ main {
 
 /*product range section*/
 #art-services-heading > h2 {
-  padding-top: 0.2rem;
   font-size: 200%;
   color: #f1f2f3;
   text-shadow: 0 10px 10px #858484;
@@ -217,6 +217,7 @@ main {
 
 #art-services-heading {
   background-color: rgb(248, 7, 228);
+  border: 5px solid #f1f2f3;
 }
 
 #services {
