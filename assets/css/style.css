@@ -167,7 +167,10 @@ main {
 /* About us section */
 #about-us {
   background-color: #5f5757;
-  border-top: 5px solid #858484;
+}
+
+#about-us-heading {
+  border: 5px solid #f1f2f3;
 }
 
 #about-us-heading > h3 {
@@ -196,6 +199,10 @@ main {
 
 .align-right > p {
   padding: 5%;
+}
+
+#align-left {
+  margin-top: 10px;
 }
 
 /* Footer */
