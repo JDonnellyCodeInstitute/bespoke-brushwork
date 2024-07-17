@@ -205,6 +205,25 @@ main {
   margin-top: 10px;
 }
 
+/*product range section*/
+#services {
+  background: url('../images/products/cloud-gazing.jpg') no-repeat center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#services div {
+  color: #f1f2f3;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 15px;
+  text-align: center;
+  /*each div expands to fill space on row above 400px width*/
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid white;
+  height: 100px;
+}
+
 /* Footer */
 footer {
   box-shadow: 0 -3px 3px #858484;
