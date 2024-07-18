@@ -388,3 +388,21 @@ footer {
   }
 
 }
+
+/* Media query 1025px+ (for large laptops) */
+@media screen and (min-width: 1025px) { 
+  /*logo*/
+  #title {
+    font-size: 350%;
+  }
+
+  /*nav*/
+  #page-select {
+    font-size: 200%;
+  }
+
+  #services h3 {
+    font-size: 200%;
+  }
+
+}
