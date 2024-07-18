@@ -38,18 +38,41 @@
     </header>
     <!--Main content including site purpose and examples of offerings-->
     <main>
-        <h1>Main</h1>
-        <p>The Home of Specialized Art Commissions</p>
+        <section id="enquiry">
+            <form id="enquiry-form" method="GET" action="confirmation.html">
+                <h2><i class="fa-solid fa-paintbrush"></i> Tell Us About the Art You'd Like us to Create!</h2>
+                <label for="first-name">First Name <span>*</span></label>
+                <br>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name <span>*</span></label>
+                <br>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address <span>*</span></label>
+                <br>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="description">Describe your order: <span>*</span></label>
+                <br>
+                <textarea id="freeform" name="freeform" rows="8" cols="25" class="text-input" required placeholder="Enter text here... Tell us about size, location, occasion and the date you require the work completed by..."></textarea>
+                <br>
+                <button type="submit" class="join-button">Submit</button>
+            </form>
+        </section>
     </main>
     <!--Footer including contact information and links to socials-->
     <footer>
         <ul id="socials">
             <li class="white"><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit us on Facebook (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    aria-label="Visit us on Facebook (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
             <li class="white"><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit us on twitter / X (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a></li>
+                    aria-label="Visit us on twitter / X (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
             <li class="white"><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit us on instagram (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    aria-label="Visit us on instagram (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
         </ul>
     </footer>
     <!-- Font Awesome Link. At bottom of page to avoid any loading delays -->

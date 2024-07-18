@@ -94,6 +94,9 @@ main {
   flex: 1 0 auto;
   /* top margin ensures main is visible under header */
   margin-top: 47px;
+  /*to facilitate movements on form*/
+  display: flex;
+  flex-direction: column;
 }
 
 /* Hero image slideshow*/
@@ -257,6 +260,47 @@ main {
   line-height: 0;
 }
 
+/*Form styles*/
+#enquiry {
+  background-image: url("../images/products/cloud-gazing.jpg");
+  background-size: cover;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+#enquiry-form {
+  color: #f1f2f3;
+  background-color: rgba(248, 7, 228, 0.6);
+  padding: 30px;
+}
+
+#enquiry-form>h2 {
+  color: #f1f2f3;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-input {
+  width: 100%;
+  line-height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #f1f2f3;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.join-button {
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 10px 24px;
+  font-size: 100%;
+  background-color: #f1f2f3;
+}
+
+#enquiry-form span {
+  color: red;
+}
+
 /* Footer */
 footer {
   box-shadow: 0 -3px 3px #858484;
@@ -403,7 +447,7 @@ footer {
 
   /*product / services section*/
   #services h3 {
-    font-size: 200%;
+    font-size: 180%;
   }
 
 }
