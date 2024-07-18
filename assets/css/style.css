@@ -415,10 +415,15 @@ footer {
 
 /* Media query 992px+ (for laptops) */
 @media screen and (min-width: 992px) {
-  a:hover {
+  nav a:hover {
     background-color: #f1f2f3;
     color: black;
     border-bottom: 1.5px solid #858484;
+  }
+
+  #slider figure img {
+    float: left;
+    max-height: fit-content;
   }
 
   /*hero image cover text*/
