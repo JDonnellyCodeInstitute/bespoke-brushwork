@@ -301,6 +301,22 @@ main {
   color: red;
 }
 
+/*Confirmation response*/
+#enquiry-confirmation {
+  background-image: url("../images/products/cloud-gazing.jpg");
+  background-size: cover;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+#enquiry-confirmation-area {
+  color: #f1f2f3;
+  background-color: rgba(248, 7, 228, 0.6);
+  padding: 30px;
+  font-size: 120%;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   box-shadow: 0 -3px 3px #858484;
