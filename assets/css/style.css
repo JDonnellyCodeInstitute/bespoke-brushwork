@@ -272,6 +272,7 @@ main {
   color: #f1f2f3;
   background-color: rgba(248, 7, 228, 0.6);
   padding: 30px;
+  border-radius: 2px;
 }
 
 #enquiry-form>h2 {
@@ -296,6 +297,7 @@ main {
   font-size: 100%;
   background-color: #f1f2f3;
   color: black;
+  border-radius: 2px;
 }
 
 #enquiry-form span {
