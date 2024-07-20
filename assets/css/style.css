@@ -43,7 +43,6 @@ header a {
 
 #title {
   font-family: "Playwrite NO", cursive;
-  font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;
   /*to keep to one line at top of mobile screen*/

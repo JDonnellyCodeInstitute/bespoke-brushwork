@@ -1,8 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-
-Fonts from google fonts
-Pictures are all my partner's work
 
 # Bespoke Brushwork
 
@@ -14,7 +9,61 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 ![Responsive Mockup](assets/images/readme/full-mock-up.png)
 
-## Features 
+
+## The Five Planes of User Experience
+
+- __The Strategy Plane__
+  - Defining Goals and User Needs:
+    - Our goal is defined above, we want to connect potential buyers to our artist and help to create and deliver the unique art piece they desire. Bespoke Brushwork as a site has been designed with that goal in mind.
+    - User Needs as we see it, are clear presentation of the required information, easy and logical site navigation, and a clear means of making contact with us.
+
+- __The Scope Plane__
+  - Determining Features and Content:
+    - The header and footer are omnipresent on all pages. The header contains the nav that can take the user to any page, the footer has links to the three main social media pages for an alternate perspective / means of getting in contact with us.
+    - Given the artistic and presentation focused nature of our product we have used the landing page main image reel to immediately draw the user's eye.
+    - The About Us section provides context and additional information about the service.
+    - The Services section provides an easily digestible line-up of some of the different occasions / events we cater to.
+    - The gallery facilitates a showcase of the quality artwork and may give users ideas or modifications they may make to their own requests.
+    - The enquire page gives users the opportunity to describe to us in detail what exactly they want and it gets the conversation started.
+    - The confirmation page will only be navigated to upon successful submission of the form. Its to assure users their request has been received and its thematically coherent with the rest of the site and the enquire page.
+    - Features described further in the next [section](features).
+
+- __The Structure Plane__
+  - Setting the Sitemap:
+    - Home Page - Central hub includes broad stroke information
+    - Gallery - Logical next step for the user to confirm legitimacy and quality
+    - Form - Easily accessible means of getting in touch and describing user needs
+
+- __The Skeleton Plane__
+  - Layout and Navigation Design:
+    - Below is the initial design framework of the homepage that we built from: 
+    
+    ![Wireframe Home](assets/images/readme/wire-home.png)
+    
+    The final product did move away from this slightly, for example:
+      - 'The Home of Specialized Art Commissions' became the hero-image cover text rather than aligning with the logo as it made better use of space.
+      - The same is true of the nav which was planned as a separate, three piece tab.
+      - The hero image itself, instead of being a looped video, was more logical as a reel of the artist's own work.
+      - The About Us section, rather than a block of text next to an image, looked much better with the image being overlaid in the background.
+      -We also opted to remove LinkedIn as its not a site the artist spends any time on.
+    
+    - The following is the design plan for the gallery which remained essentially the same as the finished product:
+
+    ![Wireframe Gallery](assets/images/readme/wire-gallery.png)
+
+    - There are a couple of small changes between the form plan and the live site. For example, the initial intention was to have an image of the sistine chapel in the background, but the idea to use only the artist's work throughout the site came after.
+    - Note also that there is a location field in the original form plan, this was removed as we didn't want potential clients to feel limited because of their geography.
+    - The idea for a confirmation page that aligned with the theme of the site also arrived mid-development so was never planned for during the design period.
+
+    ![Wireframe Form](assets/images/readme/wire-form.png)
+
+- __The Surface Plane__
+  - The Visual Design:
+    - We opted for a colour scheme for the header, footer and logo that was as visually striking as it was easy to read. 
+    - The hot pink against the white with the 'Playwrite' text for the logo was intended to bring up ideas of the likes of Barbie or Disney in the mind's eye of users. With the 'Poppins' font chosen to be complementary and easy to distinguish.
+    - Given the nature of the site, and the artist I'm in partnership with, it was a very easy decision when it occurred to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly projected the type of work the artist wants to be doing.
+
+<a name="features">## Features</a>
 
 - __Navigation Bar__
 
@@ -80,7 +129,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 ![Confirmation](assets/images/readme/confirmation.png)
 
-<a name="not-yet-implemented">### Features Left to Implement</a>
+## <a name="not-yet-implemented">Features Left to Implement</a>
 
 - Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
 - Creating a database for storage of customer information and linking it to the enquire form.
@@ -89,13 +138,11 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+We undertook a broad array of tests across Google Chrome, Microsoft Edge and Safari as proof of the efficacy of the site.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Testing was mainly focused on functionality and responsivity. The full test script can be observed by going to the file below. No tests failed.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+[Bespoke Brushwork Test Script](bespoke-brushwork-test-script.txt)
 
 
 ### Validator Testing 
@@ -130,12 +177,35 @@ If this section grows too long, you may want to split it off into a separate fil
   - Go to Code tab - refresh after a few minutes.
   - Under Environments on the right-hand side click 'github-pages' then View Deployment to see the sight.
 
+## Cloning and Forking
+
+The code can be easily cloned and forked in GitHub
+
+Cloning is the process of completely recreating the code in a directory on your local system, forking is more akin to branching, essentially making non-finalised changes to the code which the author can then choose to incorporate via pull request. You can also opt not to incorporate the work done on your forked branch and instead extract it as a project to build on for yourself.
+
+To clone:
+  - Go to the repository in GitHub and hit the button that says <>Code
+  - Once clicked, details for cloning either via HTTP or SSH will appear, the below example shows HTTP
+  - Use git commands (git clone) in a git attuned terminal to create an exact copy of the code locally
+
+[Visual Aid to Assist with Cloning 1](assets/images/readme/clone-step-one.png)
+[Visual Aid to Assist with Cloning 2](assets/images/readme/clone-step-two.png)
+
+To fork:
+  - Go to the repository in GitHub, choose the file you wish to edit, click the edit button, then GitHub will respond with a pop-up to say you have do not have write access to the code
+  - At this point you may opt to fork
+  - The ability to do this is dependent on the author's privacy settings
+
+[Visual Aid to Assist with Fork 1](assets/images/readme/fork-step-one.png)
+[Visual Aid to Assist with Fork 2](assets/images/readme/fork-step-two.png)
+
 ## Credits 
 
 - I followed the tutorial for code institute's love running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 - The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy'' Lesson.
 - The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
 - The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
+- For design planning I used the app Balsamiq Wireframes.
 
 ### Content 
 
@@ -148,9 +218,3 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Media
 
 - All images used across the site are primary source pictures of my partner's artwork.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
