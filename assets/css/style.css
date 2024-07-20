@@ -99,7 +99,7 @@ main {
   flex-direction: column;
 }
 
-/* Hero image slideshow*/
+/* Hero image slideshow - code guidance taken from https://www.youtube.com/watch?v=qDww4CbxtD4*/
 #hero-container {
   position: relative;
 }
@@ -161,7 +161,7 @@ main {
   }
 }
 
-/*Hero Image Text Overlay*/
+/*Hero Image Text Overlay - code guidance from https://www.youtube.com/watch?v=Si4ViAvvnwU*/
 #cover-text {
   background-color: rgba(248, 7, 228, 0.5);
   color: #f1f2f3;
@@ -251,6 +251,10 @@ main {
 }
 
 /*Gallery Styles*/
+#gallery > h2 {
+  display: none;
+}
+
 #art-pieces img {
   width: 100%;
   line-height: 1em;

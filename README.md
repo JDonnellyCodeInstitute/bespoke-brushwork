@@ -1,137 +1,151 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Favicon taken from favicon.io
+
 Fonts from google fonts
 Pictures are all my partner's work
-Guide for hero image slideshow taken from https://www.youtube.com/watch?v=qDww4CbxtD4
-Guide for text overlap of hero image taken from https://www.youtube.com/watch?v=Si4ViAvvnwU
 
-Welcome Joe Donnelly,
+# Bespoke Brushwork
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+At Bespoke Brushwork we have passion for paintwork, creating the best designs in a range of formats for our customers. Our goal is to ensure you are completely satisfied with a stunning and unique art-piece you can appreciate forever, be it as a fond memory of a marked occasion or simply a beloved decoration.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+We cater to a wide variety of clientele, be it a spouse marking an anniversary with an intimate, personalised piece, or a beautifully stylised sign to mark your Christmas party at work.
 
-## Gitpod Reminders
+The aim of the Bespoke Brushwork web-service is to connect our clients with our skilled artist and to have open and evolving conversations with people about their artistic needs. We are not limited to paintwork nor are we limited to a particular art style. We want our customers to have faith in the quality of our work, exemplified across the site, and to either order a piece to be specially made and collected/delivered, or to have their home or place of work become the art via window, mirror, or mural work.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Responsive Mockup](assets/images/readme/full-mock-up.png)
 
-`python3 -m http.server`
+## Features 
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+  - Featured on all three main pages and the supplementary confirmation page, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Enquire page and is identical in each page to allow for easy navigation.
+  - This section allows the user to easily navigate across all pages and all devices without having to revert via the ‘back’ button.
+  - The nav forms a burger menu which can be dropped down to optimise use of space on smaller screens, and has a responsive hover selector that causes the different menu options to light up when hovered over on large screens.
+  - Each page has a 'live' class, that indicates to users which page they are currently on improving their experience.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+![Nav Bar](assets/images/readme/nav.png)
+![Nav Bar on smaller screen](assets/images/readme/burger-nav.png)
 
-A blue button should appear to click: _Make Public_,
+- __The Landing Page Slideshow__
 
-Another blue button should appear to click: _Open Browser_.
+  - The focus of the landing page is a slideshow of some of the artist's work, overlaid with some text to indicate to users what to expect from the site.
+  - This section, which, along with the About Us and Services sections, makes up index.html, introduces the user to Bespoke Brushwork with an eye catching animation that cycles through several different art-pieces to grab their attention.
+  - The slideshow is responsive, on larger screens showing two images at a time, this was done by halving the width and action percentages of the animation in a media query, and on smaller screens one at a time.
+  - It allows users to immediately see some of the types art they can request as well as the different styles and quality of the pieces.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Landing Page](assets/images/readme/desktop.png)
+![Landing Page including image slideshow](assets/images/readme/desktop-alt.png)
 
-To log into the Heroku toolbelt CLI:
+- __About Us Section__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The About Us section allows the user to learn a bit about Bespoke Brushwork as an organisation, including our passion and goal.
+  - The section is responsive, has readable colour contrast, is in keeping with the overall colour theme, and contains links to the gallery and enquire pages to assist with the user journey.
+  - This user will get a taste of the range of art-services we provide, which should encourage and inspire them in selecting art they'll love. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![About Us](assets/images/readme/about-us.png)
 
-### Connecting your Mongo database
+- __Services Section__
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+  - This section will give the user a non-exhaustive list of some of the different art-styles, applications and events available to request a commission from Bespoke Brushwork. 
+  - The section is clearly readable, responsive and has a faded facade of one of the artist's pieces in the background. 
+  - The code for the structure of this piece is taken from the meetup times section of the love-running code institute project.
 
-------
+![Some of Our Services](assets/images/readme/services.png)
 
-## Release History
+- __The Footer__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The footer section includes links to the three main social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - Currently these only link to the homepages of the respective social media sites, in time, we will create pages on each application for Bespoke Brushwork and link them to the sites. See [Features Left to Implement](#not-yet-implemented).
 
-**June 18, 2024,** Add Mongo back into template
+![Footer](assets/images/readme/footer.png)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- __Gallery__
 
-**May 28 2024:** Fix Mongo and Links installs
+  - The gallery, gallery.html, will provide the user with supporting images to see a broader range of the available art styles and the skills of the artist. 
+  - This section is valuable to the user as they will be able to scan for ideas for their own art selection, the quality of the work, the variety of colours and the responsivity of the page also makes for an aesthetically pleasing experience. 
 
-**April 26 2024:** Update node version to 16
+![Gallery](assets/images/readme/gallery.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+- __The Enquire Page__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - This page, form.html, will allow the user to make contact with the artist.
+  - The page is composed of a form which requires the user's contact information and that they input a description of the type of work they would like produced.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Enquire](assets/images/readme/enquire.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __The Confirmation Page__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The confirmation page, confirmation.html, has the same background as the enquire page and is only available when the form has been submitted. The purpose of this page is to indicate to users that they have successfully submitted the form, it gives users comfort that their request has been received and the consistency with the enquire page is good for the user experience.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Confirmation](assets/images/readme/confirmation.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<a name="not-yet-implemented">### Features Left to Implement</a>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
+- Creating a database for storage of customer information and linking it to the enquire form.
+- Clarifying the user journey on the enquire page. Setting up an email / business specific contact point for the information to come through to as well as defining SLAs so customers can know how long they should expect to wait for a response and the general pricing they should expect.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Validator Testing 
 
-------
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) - screenshots confirming the same are linked below
+  - [index.html]()
+  - [gallery.html]()
+  - [form.html]()
+  - [confirmation.html]()
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-## FAQ about the uptime script
+### Unfixed Bugs
 
-**Why have you added this script?**
+- Images all taken from smart phone rather than online repository. Currently take up too much space (as of 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Deployment
 
-**How will this affect me?**
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab
+  - On the left-hand sidebar, in the Code and automation section, select Pages.
+  Ensure:
+    -  Source is set to 'Deploy from Branch'.
+    -  Main branch is selected.
+    -  Folder is set to / (root).
+  - Under Branch, click Save.
+  - Go to Code tab - refresh after a few minutes.
+  - Under Environments on the right-hand side click 'github-pages' then View Deployment to see the sight.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Credits 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- I followed the tutorial for code institute's love running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy' Lesson'.
+- The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
+- The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Content 
 
-**So….?**
+- The only written content in the site is in the About Us section - written by me.
+- The idea for the site and the business comes from my partner (the artist).
+- The icons in the footer and in the services section were taken from [Font Awesome](https://fontawesome.com/).
+- Favicon taken from [favicon.io](https://favicon.io/).
+- Fonts taken from [Google Fonts](https://fonts.google.com/)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Media
 
-**Can I opt out?**
+- All images used across the site are primary source pictures of my partner's artwork.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
