@@ -85,6 +85,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
 - Creating a database for storage of customer information and linking it to the enquire form.
 - Clarifying the user journey on the enquire page. Setting up an email / business specific contact point for the information to come through to as well as defining SLAs so customers can know how long they should expect to wait for a response and the general pricing they should expect.
+- Implementing JavaScript for hero image slideshow rather than CSS animation for greater flexibility and smoother functionality.
 
 ## Testing 
 
@@ -101,16 +102,20 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) - screenshots confirming the same are linked below
-  - [index.html]()
-  - [gallery.html]()
-  - [form.html]()
-  - [confirmation.html]()
+  - [index.html validation](assets/images/readme/index-validation.png)
+  - [gallery.html validation](assets/images/readme/gallery-validation.png)
+  - [form.html validation](assets/images/readme/form-validation.png)
+  - [confirmation.html validation](assets/images/readme/confirmation-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
+  - [style.css validation](assets/images/readme/css-validation.png)
 
-### Unfixed Bugs
+### Bugs
 
-- Images all taken from smart phone rather than online repository. Currently take up too much space (as of 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools)
+- NOT YET FIXED - Images all taken from smart phone rather than online repository. Currently take up too much space (as of 10:00 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools).
+- FIXED - Height issue with hero image slideshow on large screens due to nature of non-JavaScript method, resolved via media query and altering the inputs of the slideshow animation.
+- FIXED - General improvement in responsivity across the site, mainly corrected via media query particularly on About Us and Services sections on index.html.
+- FIXED - Hover effect put in place on all Anchor elements to improve user experience, HOWEVER, was not supposed to affect social media anchors in footer, increased selector specificity to exclude footer items and improve user experience.
 
 ## Deployment
 
@@ -128,14 +133,14 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits 
 
 - I followed the tutorial for code institute's love running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-- The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy' Lesson'.
+- The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy'' Lesson.
 - The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
 - The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
 
 ### Content 
 
 - The only written content in the site is in the About Us section - written by me.
-- The idea for the site and the business comes from my partner (the artist).
+- The premise for the site and idea for the business came from my partner (the artist).
 - The icons in the footer and in the services section were taken from [Font Awesome](https://fontawesome.com/).
 - Favicon taken from [favicon.io](https://favicon.io/).
 - Fonts taken from [Google Fonts](https://fonts.google.com/)
