@@ -232,7 +232,7 @@ main {
 }
 
 #services {
-  background: url('../images/products/cloud-gazing.jpg') no-repeat center/cover;
+  background: url('../images/products/cloud-gazing-resized.jpg') no-repeat center/cover;
   display: flex;
   flex-wrap: wrap;
 }
@@ -265,7 +265,7 @@ main {
 
 /*Form styles*/
 #enquiry {
-  background-image: url("../images/products/cloud-gazing.jpg");
+  background-image: url("../images/products/cloud-gazing-resized.jpg");
   background-size: cover;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
@@ -309,7 +309,7 @@ main {
 
 /*Confirmation response*/
 #enquiry-confirmation {
-  background-image: url("../images/products/cloud-gazing.jpg");
+  background-image: url("../images/products/cloud-gazing-resized.jpg");
   background-size: cover;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
