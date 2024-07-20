@@ -157,9 +157,22 @@ Testing was mainly focused on functionality and responsivity. The full test scri
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
   - [style.css validation](assets/images/readme/css-validation.png)
 
+### Lighthouse Scores
+
+The lighthouse evaluation is a dev ops tool that allows you to get a score measured on performance, accessibility, best practices, and search engine optimisation. The aim is to have a score of over 90 for each evaluation point. Below are the Bespoke Brushwork scores by page.
+
+The enquire page:
+
+![Enquire Lighthouse](assets/images/readme/enquire-lighthouse.png)
+
+The confirmation page:
+
+![Confirmation Lighthouse](assets/images/readme/confirmation-lighthouse.png)
+
 ### Bugs
 
 - NOT YET FIXED - Images all taken from smart phone rather than online repository. Currently take up too much space (as of 10:00 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools).
+  - UPDATE - (21:56 20/07/2024) - Progress made. Both the enquire and confirmation pages now showing a lighthouse score >90 for performance. Still working on the gallery and landing pages.
 - FIXED - Height issue with hero image slideshow on large screens due to nature of non-JavaScript method, resolved via media query and altering the inputs of the slideshow animation.
 - FIXED - General improvement in responsivity across the site, mainly corrected via media query particularly on About Us and Services sections on index.html.
 - FIXED - Hover effect put in place on all Anchor elements to improve user experience, HOWEVER, was not supposed to affect social media anchors in footer, increased selector specificity to exclude footer items and improve user experience.
@@ -206,6 +219,7 @@ To fork:
 - The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
 - The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
 - For design planning I used the app Balsamiq Wireframes.
+- I used imagify to help reduce the size of my images while minimising the sacrifice to quality https://app.imagify.io/.
 
 ### Content 
 
