@@ -26,7 +26,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     - The gallery facilitates a showcase of the quality artwork and may give users ideas or modifications they may make to their own requests.
     - The enquire page gives users the opportunity to describe to us in detail what exactly they want and it gets the conversation started.
     - The confirmation page will only be navigated to upon successful submission of the form. Its to assure users their request has been received and is thematically coherent with the rest of the site and the enquire page.
-    - Features described further in the next [section](features).
+    - Features described further in the next section.
 
 - __The Structure Plane__
   - Setting the Sitemap:
@@ -39,6 +39,9 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     - Below links to the initial design framework of the homepage that we built from: 
     
     [Wireframe Home Desktop](assets/images/readme/wire-home.png)
+    [Wireframe Home Tablet](assets/images/readme/wire-home-tablet.png)
+    [Wireframe Home Mobile](assets/images/readme/wire-home-mobile.png)
+    [Wireframe Mobile - Nav Open](assets/images/readme/wire-home-burger-menu-mobile.png)
     
     The final product did move away from this slightly, for example:
       - 'The Home of Specialized Art Commissions' became the hero-image cover text rather than aligning with the logo as it made better use of space.
@@ -50,12 +53,16 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     - The following links to the design plan for the gallery which remained essentially the same as the finished product:
 
     [Wireframe Gallery Desktop](assets/images/readme/wire-gallery.png)
+    [Wireframe Gallery Tablet](assets/images/readme/wire-gallery-tablet.png)
+    [Wireframe Gallery Mobile](assets/images/readme/wire-gallery-mobile.png)
 
     - There are a couple of small changes between the form plan and the live site. For example, the initial intention was to have an image of the sistine chapel in the background, but the idea to use only the artist's work throughout the site came after.
     - Note also that there is a location field in the original form plan, this was removed as we didn't want potential clients to feel limited because of their geography.
     - The idea for a confirmation page that aligned with the theme of the site also arrived mid-development so was never planned for during the design period.
 
     [Wireframe Form Desktop](assets/images/readme/wire-form.png)
+    [Wireframe Form Tablet](assets/images/readme/wire-form-tablet.png)
+    [Wireframe Form Mobile](assets/images/readme/wire-form-mobile.png)
 
 - __The Surface Plane__
   - The Visual Design:
@@ -63,7 +70,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     - The hot pink against the white with the 'Playwrite' text for the logo was intended to rouse memories of the likes of Barbie or Disney in the mind's eye of users. With the 'Poppins' font chosen to be complementary and easy to distinguish.
     - Given the nature of the site, and the artist I'm in partnership with, it was a very easy decision to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly projected the type of work the artist wants to be doing.
 
-<a name="features">## Features</a>
+## Features
 
 - __Navigation Bar__
 
@@ -104,7 +111,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
   - The footer section includes links to the three main social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
-  - Currently these only link to the home pages of the respective social media sites, in time, we will create pages on each application for Bespoke Brushwork and link them to the sites. See [Features Left to Implement](#not-yet-implemented).
+  - Currently these only link to the home pages of the respective social media sites, in time, we will create pages on each application for Bespoke Brushwork and link them to the relevant sites.
 
 ![Footer](assets/images/readme/footer.png)
 
@@ -128,7 +135,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 ![Confirmation](assets/images/readme/confirmation.png)
 
-## <a name="not-yet-implemented">Features Left to Implement</a>
+## Features Left to Implement
 
 - Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
 - Creating a database for storage of customer information and linking it to the enquire form.
@@ -202,7 +209,7 @@ The confirmation page:
   - Go to Code tab - refresh after a few minutes.
   - Under Environments on the right-hand side click 'github-pages' then View Deployment to see the sight.
 
-## Cloning and Forking
+### Cloning and Forking
 
 The code can be easily cloned and forked in GitHub
 
