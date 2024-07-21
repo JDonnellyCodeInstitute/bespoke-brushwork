@@ -159,15 +159,26 @@ Testing was mainly focused on functionality and responsivity. The full test scri
 
 ### Lighthouse Scores
 
-The lighthouse evaluation is a dev ops tool that allows you to get a score measured on performance, accessibility, best practices, and search engine optimisation. The aim is to have a score of over 90 for each evaluation point. Below are the Bespoke Brushwork scores by page.
+The lighthouse evaluation is a dev ops tool that allows you to get a score measured on performance, accessibility, best practices, and search engine optimisation. The aim is to have a score of over 90 for each evaluation point but high 80s is also acceptable. Below are the Bespoke Brushwork scores by page.
+
+The home page:
+
+![Home Lighthouse Mobile](assets/images/readme/home-lighthouse.png)
+![Home Lighthouse Desktop](assets/images/readme/home-lighthouse-desktop.png)
+
+The gallery page:
+
+
 
 The enquire page:
 
-![Enquire Lighthouse](assets/images/readme/enquire-lighthouse.png)
+![Enquire Lighthouse Mobile](assets/images/readme/enquire-lighthouse.png)
+![Enquire Lighthouse Desktop](assets/images/readme/enquire-lighthouse-desktop.png)
 
 The confirmation page:
 
-![Confirmation Lighthouse](assets/images/readme/confirmation-lighthouse.png)
+![Confirmation Lighthouse Mobile](assets/images/readme/confirmation-lighthouse.png)
+![Confirmation Lighthouse Desktop](assets/images/readme/confirmation-lighthouse-desktop.png)
 
 ### Bugs
 
