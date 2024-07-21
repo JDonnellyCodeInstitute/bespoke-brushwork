@@ -15,53 +15,53 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - __The Strategy Plane__
   - Defining Goals and User Needs:
     - Our goal is defined above, we want to connect potential buyers to our artist and help to create and deliver the unique art piece they desire. Bespoke Brushwork as a site has been designed with that goal in mind.
-    - User Needs as we see it, are clear presentation of the required information, easy and logical site navigation, and a clear means of making contact with us.
+    - User needs as we see it, are clear presentation of the required information, easy and logical site navigation, and a clear means of making contact with us.
 
 - __The Scope Plane__
   - Determining Features and Content:
-    - The header and footer are omnipresent on all pages. The header contains the nav that can take the user to any page, the footer has links to the three main social media pages for an alternate perspective / means of getting in contact with us.
+    - The header and footer are present and consistent on all pages. The header contains the nav that can take the user to any page, the footer has links to the three main social media pages for an alternate perspective / means of getting in contact with us.
     - Given the artistic and presentation focused nature of our product we have used the landing page main image reel to immediately draw the user's eye.
     - The About Us section provides context and additional information about the service.
     - The Services section provides an easily digestible line-up of some of the different occasions / events we cater to.
     - The gallery facilitates a showcase of the quality artwork and may give users ideas or modifications they may make to their own requests.
     - The enquire page gives users the opportunity to describe to us in detail what exactly they want and it gets the conversation started.
-    - The confirmation page will only be navigated to upon successful submission of the form. Its to assure users their request has been received and its thematically coherent with the rest of the site and the enquire page.
+    - The confirmation page will only be navigated to upon successful submission of the form. Its to assure users their request has been received and is thematically coherent with the rest of the site and the enquire page.
     - Features described further in the next [section](features).
 
 - __The Structure Plane__
   - Setting the Sitemap:
-    - Home Page - Central hub includes broad stroke information
-    - Gallery - Logical next step for the user to confirm legitimacy and quality
-    - Form - Easily accessible means of getting in touch and describing user needs
+    - Home Page - Central hub includes broad stroke information.
+    - Gallery - Logical next step for the user to confirm legitimacy and quality.
+    - Form - Easily accessible means of getting in touch and describing user needs.
 
 - __The Skeleton Plane__
   - Layout and Navigation Design:
-    - Below is the initial design framework of the homepage that we built from: 
+    - Below links to the initial design framework of the homepage that we built from: 
     
-    ![Wireframe Home](assets/images/readme/wire-home.png)
+    [Wireframe Home Desktop](assets/images/readme/wire-home.png)
     
     The final product did move away from this slightly, for example:
       - 'The Home of Specialized Art Commissions' became the hero-image cover text rather than aligning with the logo as it made better use of space.
       - The same is true of the nav which was planned as a separate, three piece tab.
       - The hero image itself, instead of being a looped video, was more logical as a reel of the artist's own work.
       - The About Us section, rather than a block of text next to an image, looked much better with the image being overlaid in the background.
-      -We also opted to remove LinkedIn as its not a site the artist spends any time on.
+      - We also opted to remove LinkedIn as its not a site the artist spends any time on.
     
-    - The following is the design plan for the gallery which remained essentially the same as the finished product:
+    - The following links to the design plan for the gallery which remained essentially the same as the finished product:
 
-    ![Wireframe Gallery](assets/images/readme/wire-gallery.png)
+    [Wireframe Gallery Desktop](assets/images/readme/wire-gallery.png)
 
     - There are a couple of small changes between the form plan and the live site. For example, the initial intention was to have an image of the sistine chapel in the background, but the idea to use only the artist's work throughout the site came after.
     - Note also that there is a location field in the original form plan, this was removed as we didn't want potential clients to feel limited because of their geography.
     - The idea for a confirmation page that aligned with the theme of the site also arrived mid-development so was never planned for during the design period.
 
-    ![Wireframe Form](assets/images/readme/wire-form.png)
+    [Wireframe Form Desktop](assets/images/readme/wire-form.png)
 
 - __The Surface Plane__
   - The Visual Design:
     - We opted for a colour scheme for the header, footer and logo that was as visually striking as it was easy to read. 
-    - The hot pink against the white with the 'Playwrite' text for the logo was intended to bring up ideas of the likes of Barbie or Disney in the mind's eye of users. With the 'Poppins' font chosen to be complementary and easy to distinguish.
-    - Given the nature of the site, and the artist I'm in partnership with, it was a very easy decision when it occurred to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly projected the type of work the artist wants to be doing.
+    - The hot pink against the white with the 'Playwrite' text for the logo was intended to rouse memories of the likes of Barbie or Disney in the mind's eye of users. With the 'Poppins' font chosen to be complementary and easy to distinguish.
+    - Given the nature of the site, and the artist I'm in partnership with, it was a very easy decision to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly projected the type of work the artist wants to be doing.
 
 <a name="features">## Features</a>
 
@@ -97,7 +97,6 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
   - This section will give the user a non-exhaustive list of some of the different art-styles, applications and events available to request a commission from Bespoke Brushwork. 
   - The section is clearly readable, responsive and has a faded facade of one of the artist's pieces in the background. 
-  - The code for the structure of this piece is taken from the meetup times section of the love-running code institute project.
 
 ![Some of Our Services](assets/images/readme/services.png)
 
@@ -105,7 +104,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
   - The footer section includes links to the three main social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
-  - Currently these only link to the homepages of the respective social media sites, in time, we will create pages on each application for Bespoke Brushwork and link them to the sites. See [Features Left to Implement](#not-yet-implemented).
+  - Currently these only link to the home pages of the respective social media sites, in time, we will create pages on each application for Bespoke Brushwork and link them to the sites. See [Features Left to Implement](#not-yet-implemented).
 
 ![Footer](assets/images/readme/footer.png)
 
@@ -119,7 +118,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - __The Enquire Page__
 
   - This page, form.html, will allow the user to make contact with the artist.
-  - The page is composed of a form which requires the user's contact information and that they input a description of the type of work they would like produced.
+  - The page is composed of a form which requires the user's contact information and that they input a description of the type of work they would like to be produced.
 
 ![Enquire](assets/images/readme/enquire.png)
 
@@ -133,7 +132,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 - Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
 - Creating a database for storage of customer information and linking it to the enquire form.
-- Clarifying the user journey on the enquire page. Setting up an email / business specific contact point for the information to come through to as well as defining SLAs so customers can know how long they should expect to wait for a response and the general pricing they should expect.
+- Creating the data journey on the enquire page. Setting up an email / business specific contact point for the information to come through to as well as defining SLAs so customers know how long they should expect to wait for a response and the general pricing they should expect.
 - Implementing JavaScript for hero image slideshow rather than CSS animation for greater flexibility and smoother functionality.
 
 ## Testing 
@@ -142,7 +141,7 @@ We undertook a broad array of tests across Google Chrome, Microsoft Edge and Saf
 
 Testing was mainly focused on functionality and responsivity. The full test script can be observed by going to the file below. No tests failed.
 
-[Bespoke Brushwork Test Script](bespoke-brushwork-test-script.txt)
+[Bespoke Brushwork Test Script](bespoke-brushwork-test-script.md)
 
 
 ### Validator Testing 
@@ -168,7 +167,8 @@ The home page:
 
 The gallery page:
 
-
+![Gallery Lighthouse Mobile](assets/images/readme/gallery-lighthouse.png)
+![Gallery Lighthouse Desktop](assets/images/readme/gallery-lighthouse-desktop.png)
 
 The enquire page:
 
