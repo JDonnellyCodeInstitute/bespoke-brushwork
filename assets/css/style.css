@@ -250,7 +250,7 @@ main {
 }
 
 /*Gallery Styles*/
-#gallery > h2 {
+#gallery>h2 {
   display: none;
 }
 
@@ -345,6 +345,7 @@ footer {
 
 /* Media query 576px+ (for tablets) */
 @media screen and (min-width: 576px) {
+
   /*Gallery responsivity*/
   #art-pieces {
     column-count: 2;
@@ -430,7 +431,7 @@ footer {
   #slider figure {
     width: 250%;
   }
-  
+
   #slider figure img {
     width: 20%;
   }
@@ -439,35 +440,35 @@ footer {
     0% {
       left: 0;
     }
-  
+
     20% {
       left: 0;
     }
-  
+
     25% {
       left: -50%;
     }
-  
+
     45% {
       left: -50%;
     }
-  
+
     50% {
       left: -100%;
     }
-  
+
     70% {
       left: -100%;
     }
-  
+
     75% {
       left: -150%;
     }
-  
+
     95% {
       left: -150%;
     }
-  
+
     100% {
       left: -150%;
     }
@@ -503,7 +504,8 @@ footer {
 }
 
 /* Media query 1025px+ (for large laptops) */
-@media screen and (min-width: 1025px) { 
+@media screen and (min-width: 1025px) {
+
   /*logo*/
   #title {
     font-size: 350%;
