@@ -184,6 +184,7 @@ The confirmation page:
 
 - NOT YET FIXED - Images all taken from smart phone rather than online repository. Currently take up too much space (as of 10:00 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools).
   - UPDATE - (21:56 20/07/2024) - Progress made. Both the enquire and confirmation pages now showing a lighthouse score >90 for performance. Still working on the gallery and landing pages.
+    - FIXED - (21:03 21/07/2024) - Images resized / compressed as appropriate. Lighthouse performance scores within acceptable range.
 - FIXED - Height issue with hero image slideshow on large screens due to nature of non-JavaScript method, resolved via media query and altering the inputs of the slideshow animation.
 - FIXED - General improvement in responsivity across the site, mainly corrected via media query particularly on About Us and Services sections on index.html.
 - FIXED - Hover effect put in place on all Anchor elements to improve user experience, HOWEVER, was not supposed to affect social media anchors in footer, increased selector specificity to exclude footer items and improve user experience.
@@ -205,12 +206,13 @@ The confirmation page:
 
 The code can be easily cloned and forked in GitHub
 
-Cloning is the process of completely recreating the code in a directory on your local system, forking is more akin to branching, essentially making non-finalised changes to the code which the author can then choose to incorporate via pull request. You can also opt not to incorporate the work done on your forked branch and instead extract it as a project to build on for yourself.
+Cloning is the process of completely recreating the code in a directory on your local system with the intent to change/add to it and reincorporate it in the existing site, forking is more akin to branching off with the intention of building on the code and creating something separate of your own.
 
 To clone:
-  - Go to the repository in GitHub and hit the button that says <>Code
-  - Once clicked, details for cloning either via HTTP or SSH will appear, the below example shows HTTP
-  - Use git commands (git clone) in a git attuned terminal to create an exact copy of the code locally
+  - Go to the repository in GitHub and hit the button that says <>Code.
+  - Once clicked, details for cloning either via HTTP or SSH will appear, the below example shows HTTP.
+  - Copy the URL.
+  - Use git clone and enter the URL in a git attuned terminal to create an exact copy of the code locally.
 
 [Visual Aid to Assist with Cloning 1](assets/images/readme/clone-step-one.png)
 [Visual Aid to Assist with Cloning 2](assets/images/readme/clone-step-two.png)
