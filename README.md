@@ -1,11 +1,11 @@
 
 # Bespoke Brushwork
 
-At Bespoke Brushwork we have passion for paintwork, creating the best designs in a range of formats for our customers. Our goal is to ensure you are completely satisfied with a stunning and unique art-piece you can appreciate forever, be it as a fond memory of a marked occasion or simply a beloved decoration.
+At Bespoke Brushwork we have a passion for paintwork, creating the best designs in various formats for our customers. We aim to ensure you are completely satisfied with a stunning and unique art piece you can appreciate forever, be it as a fond memory of a marked occasion or simply a beloved decoration.
 
 We cater to a wide variety of clientele, be it a spouse marking an anniversary with an intimate, personalised piece, or a beautifully stylised sign to mark your Christmas party at work.
 
-The aim of the Bespoke Brushwork web-service is to connect our clients with our skilled artist and to have open and evolving conversations with people about their artistic needs. We are not limited to paintwork nor are we limited to a particular art style. We want our customers to have faith in the quality of our work, exemplified across the site, and to either order a piece to be specially made and collected/delivered, or to have their home or place of work become the art via window, mirror, or mural work.
+The Bespoke Brushwork web service aims to connect our clients with our skilled artist and to have open and evolving conversations with people about their artistic needs. We are not limited to paintwork nor are we limited to a particular art style. We want our customers to have faith in the quality of our work, exemplified across the site, and to either order a piece to be specially made and collected/delivered, or to have their home or place of work become the art via window, mirror, or mural work.
 
 ![Responsive Mockup](assets/images/readme/full-mock-up.png)
 
@@ -19,13 +19,13 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 - __The Scope Plane__
   - Determining Features and Content:
-    - The header and footer are present and consistent on all pages. The header contains the nav that can take the user to any page, the footer has links to the three main social media pages for an alternate perspective / means of getting in contact with us.
-    - Given the artistic and presentation focused nature of our product we have used the landing page main image reel to immediately draw the user's eye.
+    - The header and footer are present and consistent on all pages. The header contains the nav that can take the user to any page, the footer has links to the three main social media pages for an alternate perspective/means of getting in contact with us.
+    - Given the artistic and presentation-focused nature of our product we have used the landing page main image reel to immediately draw the user's eye.
     - The About Us section provides context and additional information about the service.
-    - The Services section provides an easily digestible line-up of some of the different occasions / events we cater to.
-    - The gallery facilitates a showcase of the quality artwork and may give users ideas or modifications they may make to their own requests.
+    - The Services section provides an easily digestible line-up of some of the different occasions/events we cater to.
+    - The gallery facilitates a showcase of the quality artwork and may give users ideas or modifications they may make to their requests.
     - The enquire page gives users the opportunity to describe to us in detail what exactly they want and it gets the conversation started.
-    - The confirmation page will only be navigated to upon successful submission of the form. Its to assure users their request has been received and is thematically coherent with the rest of the site and the enquire page.
+    - The confirmation page will only be navigated to upon successful submission of the form. It is to assure users their request has been received and is thematically coherent with the rest of the site and the enquire page.
     - Features described further in the next section.
 
 - __The Structure Plane__
@@ -36,7 +36,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 - __The Skeleton Plane__
   - Layout and Navigation Design:
-    - Below links to the initial design framework of the homepage that we built from: 
+    - Below are the links to the initial design framework of the homepage that we built from: 
     
     [Wireframe Home Desktop](assets/images/readme/wire-home.png)
     [Wireframe Home Tablet](assets/images/readme/wire-home-tablet.png)
@@ -45,10 +45,10 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     
     The final product did move away from this slightly, for example:
       - 'The Home of Specialized Art Commissions' became the hero-image cover text rather than aligning with the logo as it made better use of space.
-      - The same is true of the nav which was planned as a separate, three piece tab.
-      - The hero image itself, instead of being a looped video, was more logical as a reel of the artist's own work.
+      - The same is true of the nav which was planned as a separate, three-piece tab.
+      - The hero image itself, instead of being a looped video, was more logical as a reel of the artist's work.
       - The About Us section, rather than a block of text next to an image, looked much better with the image being overlaid in the background.
-      - We also opted to remove LinkedIn as its not a site the artist spends any time on.
+      - We also opted to remove LinkedIn as it is not a site the artist spends any time on.
     
     - The following links to the design plan for the gallery which remained essentially the same as the finished product:
 
@@ -56,7 +56,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
     [Wireframe Gallery Tablet](assets/images/readme/wire-gallery-tablet.png)
     [Wireframe Gallery Mobile](assets/images/readme/wire-gallery-mobile.png)
 
-    - There are a couple of small changes between the form plan and the live site. For example, the initial intention was to have an image of the sistine chapel in the background, but the idea to use only the artist's work throughout the site came after.
+    - There are a couple of small changes between the form plan and the live site. For example, the initial intention was to have an image of the Sistine Chapel in the background, but the idea to use only the artist's work throughout the site came after.
     - Note also that there is a location field in the original form plan, this was removed as we didn't want potential clients to feel limited because of their geography.
     - The idea for a confirmation page that aligned with the theme of the site also arrived mid-development so was never planned for during the design period.
 
@@ -67,16 +67,16 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - __The Surface Plane__
   - The Visual Design:
     - We opted for a colour scheme for the header, footer and logo that was as visually striking as it was easy to read. 
-    - The hot pink against the white with the 'Playwrite' text for the logo was intended to rouse memories of the likes of Barbie or Disney in the mind's eye of users. With the 'Poppins' font chosen to be complementary and easy to distinguish.
-    - Given the nature of the site, and the artist I'm in partnership with, it was a very easy decision to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly projected the type of work the artist wants to be doing.
+    - The hot pink against the white with the 'Playwrite' text for the logo was intended to rouse memories of the likes of Barbie or Disney in the minds of users. The 'Poppins' font was chosen to be complementary and easy to distinguish.
+    - Given the nature of the site and the artist I'm in partnership with, it was a very easy decision to use the artist's own work for essentially all elements of the site. It then came down to choosing based on clarity, vibrancy and the art pieces that most clearly project the type of work the artist wants to be doing.
 
 ## Features
 
 - __Navigation Bar__
 
-  - Featured on all three main pages and the supplementary confirmation page, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Enquire page and is identical in each page to allow for easy navigation.
+  - Featured on all three main pages and the supplementary confirmation page, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Enquire page and is identical on each page to allow for easy navigation.
   - This section allows the user to easily navigate across all pages and all devices without having to revert via the ‘back’ button.
-  - The nav forms a burger menu which can be dropped down to optimise use of space on smaller screens, and has a responsive hover selector that causes the different menu options to light up when hovered over on large screens.
+  - The nav forms a burger menu which can be dropped down to optimise the use of space on smaller screens, and has a responsive hover selector that causes the different menu options to light up when hovered over on large screens.
   - Each page has a 'live' class, that indicates to users which page they are currently on improving their experience.
 
 ![Nav Bar](assets/images/readme/nav.png)
@@ -85,9 +85,9 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - __The Landing Page Slideshow__
 
   - The focus of the landing page is a slideshow of some of the artist's work, overlaid with some text to indicate to users what to expect from the site.
-  - This section, which, along with the About Us and Services sections, makes up index.html, introduces the user to Bespoke Brushwork with an eye catching animation that cycles through several different art-pieces to grab their attention.
+  - This section, which, along with the About Us and Services sections, makes up index.html, introduces the user to Bespoke Brushwork with an eye-catching animation that cycles through several different art pieces to grab their attention.
   - The slideshow is responsive, on larger screens showing two images at a time, this was done by halving the width and action percentages of the animation in a media query, and on smaller screens one at a time.
-  - It allows users to immediately see some of the types art they can request as well as the different styles and quality of the pieces.
+  - It allows users to immediately see some of the types of art they can request as well as the different styles and quality of the pieces.
 
 ![Landing Page](assets/images/readme/desktop.png)
 ![Landing Page including image slideshow](assets/images/readme/desktop-alt.png)
@@ -96,14 +96,14 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
   - The About Us section allows the user to learn a bit about Bespoke Brushwork as an organisation, including our passion and goal.
   - The section is responsive, has readable colour contrast, is in keeping with the overall colour theme, and contains links to the gallery and enquire pages to assist with the user journey.
-  - This user will get a taste of the range of art-services we provide, which should encourage and inspire them in selecting art they'll love. 
+  - This user will get a taste of the range of art services we provide, which should encourage and inspire them in selecting art they'll love. 
 
 ![About Us](assets/images/readme/about-us.png)
 
 - __Services Section__
 
-  - This section will give the user a non-exhaustive list of some of the different art-styles, applications and events available to request a commission from Bespoke Brushwork. 
-  - The section is clearly readable, responsive and has a faded facade of one of the artist's pieces in the background. 
+  - This section will give the user a non-exhaustive list of some of the different art styles, applications and events available to request a commission from Bespoke Brushwork. 
+  - The section is readable and responsive and has a faded facade of one of the artist's pieces in the background. 
 
 ![Some of Our Services](assets/images/readme/services.png)
 
@@ -118,7 +118,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 - __Gallery__
 
   - The gallery, gallery.html, will provide the user with supporting images to see a broader range of the available art styles and the skills of the artist. 
-  - This section is valuable to the user as they will be able to scan for ideas for their own art selection, the quality of the work, the variety of colours and the responsivity of the page also makes for an aesthetically pleasing experience. 
+  - This section is valuable to the user as they will be able to scan for ideas for their own art selection, the quality of the work, the variety of colours and the responsivity of the page also make for an aesthetically pleasing experience. 
 
 ![Gallery](assets/images/readme/gallery.png)
 
@@ -139,7 +139,7 @@ The aim of the Bespoke Brushwork web-service is to connect our clients with our 
 
 - Creating the social media pages for Bespoke Brushwork to be linked in the Footer.
 - Creating a database for storage of customer information and linking it to the enquire form.
-- Creating the data journey on the enquire page. Setting up an email / business specific contact point for the information to come through to as well as defining SLAs so customers know how long they should expect to wait for a response and the general pricing they should expect.
+- Creating the data journey on the enquire page. Setting up an email/business-specific contact point for the information to come through to as well as defining SLAs so customers know how long they should expect to wait for a response and the general pricing they should expect.
 - Implementing JavaScript for hero image slideshow rather than CSS animation for greater flexibility and smoother functionality.
 
 ## Testing 
@@ -189,18 +189,18 @@ The confirmation page:
 
 ### Bugs
 
-- NOT YET FIXED - Images all taken from smart phone rather than online repository. Currently take up too much space (as of 10:00 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools).
-  - UPDATE - (21:56 20/07/2024) - Progress made. Both the enquire and confirmation pages now showing a lighthouse score >90 for performance. Still working on the gallery and landing pages.
-    - FIXED - (21:03 21/07/2024) - Images resized / compressed as appropriate. Lighthouse performance scores within acceptable range.
-- FIXED - Height issue with hero image slideshow on large screens due to nature of non-JavaScript method, resolved via media query and altering the inputs of the slideshow animation.
+- NOT YET FIXED - Images all taken from smartphone rather than an online repository. Currently take up too much space (as of 10:00 20/07/2024) and are impacting the performance of the site. Currently investigating means of size reduction to get each page to a state of high performance (a score of 90 or above in the Lighthouse section of Dev Tools).
+  - UPDATE - (21:56 20/07/2024) - Progress made. Both the enquire and confirmation pages now show a lighthouse score >90 for performance. Still working on the gallery and landing pages.
+    - FIXED - (21:03 21/07/2024) - Images resized/compressed as appropriate. Lighthouse performance scores within an acceptable range.
+- FIXED - Height issue with hero image slideshow on large screens due to the nature of the non-JavaScript method, resolved via media query and altering the inputs of the slideshow animation.
 - FIXED - General improvement in responsivity across the site, mainly corrected via media query particularly on About Us and Services sections on index.html.
-- FIXED - Hover effect put in place on all Anchor elements to improve user experience, HOWEVER, was not supposed to affect social media anchors in footer, increased selector specificity to exclude footer items and improve user experience.
+- FIXED - Hover effect put in place on all Anchor elements to improve user experience, HOWEVER, was not supposed to affect social media anchors in the footer, increased selector specificity to exclude footer items and improve user experience.
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab
-  - On the left-hand sidebar, in the Code and automation section, select Pages.
+  - On the left-hand sidebar, in the Code and Automation section, select Pages.
   Ensure:
     -  Source is set to 'Deploy from Branch'.
     -  Main branch is selected.
@@ -219,14 +219,14 @@ To clone:
   - Go to the repository in GitHub and hit the button that says <>Code.
   - Once clicked, details for cloning either via HTTP or SSH will appear, the below example shows HTTP.
   - Copy the URL.
-  - Use git clone and enter the URL in a git attuned terminal to create an exact copy of the code locally.
+  - Use git clone and enter the URL in a git-attuned terminal to create an exact copy of the code locally.
 
 [Visual Aid to Assist with Cloning 1](assets/images/readme/clone-step-one.png)
 [Visual Aid to Assist with Cloning 2](assets/images/readme/clone-step-two.png)
 
 To fork:
-  - Go to the repository in GitHub, choose the file you wish to edit, click the edit button, then GitHub will respond with a pop-up to say you have do not have write access to the code
-  - At this point you may opt to fork
+  - Go to the repository in GitHub, choose the file you wish to edit, click the edit button, then GitHub will respond with a pop-up to say you do not have write access to the code
+  - At this point, you may opt to fork
   - The ability to do this is dependent on the author's privacy settings
 
 [Visual Aid to Assist with Fork 1](assets/images/readme/fork-step-one.png)
@@ -234,7 +234,7 @@ To fork:
 
 ## Credits 
 
-- I followed the tutorial for code institute's love running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- I followed the tutorial for Code Institute's Love Running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 - The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy'' Lesson.
 - The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
 - The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
