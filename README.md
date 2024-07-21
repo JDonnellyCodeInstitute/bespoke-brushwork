@@ -44,7 +44,7 @@ The Bespoke Brushwork web service aims to connect our clients with our skilled a
     [Wireframe Mobile - Nav Open](assets/images/readme/wire-home-burger-menu-mobile.png)
     
     The final product did move away from this slightly, for example:
-      - 'The Home of Specialized Art Commissions' became the hero-image cover text rather than aligning with the logo as it made better use of space.
+      - 'The Home of Specialized Art Commissions' became the hero image cover text rather than aligning with the logo as it made better use of space.
       - The same is true of the nav which was planned as a separate, three-piece tab.
       - The hero image itself, instead of being a looped video, was more logical as a reel of the artist's work.
       - The About Us section, rather than a block of text next to an image, looked much better with the image being overlaid in the background.
@@ -236,16 +236,16 @@ To fork:
 
 - I followed the tutorial for Code Institute's Love Running example project as the skeleton for the Bespoke Brushwork project, particularly when creating the header and footer, the services section, styling the form, and creating the masonry effect in the gallery - The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 - The explanation for deployment was taken from code institute's Love Running tutorial also - 'Love Running - Essentials Project - 'Let's Deploy'' Lesson.
-- The animation slideshow for the hero-image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
+- The animation slideshow for the hero image is done entirely with HTML and CSS, the guidance for which can be found here https://www.youtube.com/watch?v=qDww4CbxtD4.
 - The code guidance for the text overlay on the slideshow came from the following https://www.youtube.com/watch?v=Si4ViAvvnwU.
-- For design planning I used the app Balsamiq Wireframes.
-- I used imagify to help reduce the size of my images while minimising the sacrifice to quality https://app.imagify.io/.
+- For design planning, I used the app Balsamiq Wireframes.
+- I used Imagify to help reduce the size of my images while minimising the sacrifice to quality https://app.imagify.io/.
 
 ### Content 
 
 - The only written content in the site is in the About Us section - written by me.
 - The premise for the site and idea for the business came from my partner (the artist).
-- The icons in the footer and in the services section were taken from [Font Awesome](https://fontawesome.com/).
+- The icons in the footer and the services section were taken from [Font Awesome](https://fontawesome.com/).
 - Favicon taken from [favicon.io](https://favicon.io/).
 - Fonts taken from [Google Fonts](https://fonts.google.com/)
 
